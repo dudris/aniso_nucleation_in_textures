@@ -53,26 +53,6 @@ function [Aij, Sij, hij, contangij, sol_type_ij,th_wulff_cell,ind_min_area] = fi
            th_wulff_cell = {};
         end % if shift up/down
         return
-    
-    elseif spec.params.nfold==3 && spec.wy_isol_minmax(2)<=1e-10 % 3fold has no inverted eq.shapes or crossed ears
-        Aij= nan;
-        Sij = nan;
-        hij= nan;
-        contangij = nan(1,2);
-        sol_type_ij = -1; % no solution, submerged
-        th_wulff_cell = {};
-        ind_min_area = nan;
-        return
-        
-%     elseif all(spec.wy_isol_minmax>0) % for strong and strong_earcross solution only larger than isolatd Wulff => disregarded for now
-%         Aij= 1;
-%         Sij = 1;
-%         hij= nan;
-%         contangij = nan(1,2);
-%         sol_type_ij = -2; % no solution, emerged
-%         th_wulff_cell = {};
-%         ind_min_area = nan;
-%         return
         
     end % if no solution 
     
