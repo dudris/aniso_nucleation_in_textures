@@ -15,12 +15,14 @@ load(sf_resultsfile,'results_SF')
 A = [(1:length(results_SF))' , [results_SF.n]', [results_SF.soaIE]', cellfun(@(x) size(x,1),{results_SF.S}','UniformOutput',true)];
 results_overview = array2table(A,'VariableNames',{'index','n','anisotropy_strength','map_resolution'})
 
-% __ example: 4-fold, 50x50, soaIE = 0.6
-sf_ind = 6; 
+% __ example: 4-fold, 50x50, soaIE = 0.5
+sf_ind = 5; 
 
+% __ on-screen outpt, nucleation with anisotropic interface energy on,
+% 300x200 system
 MCspec = gen_MCspec(sf_resultsfile,sf_ind)
 
-% __ run the simulation
+% __ run the simulation, only on-screen output
 plotting = true;
 run_MCv2(MCspec,plotting)
 
