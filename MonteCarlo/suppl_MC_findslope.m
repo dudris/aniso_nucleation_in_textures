@@ -1,3 +1,6 @@
+% COPYRIGHT NOTICE 
+ % This file is part of a dataset <Minar, Martin (2023), “Influence of surface energy anisotropy on nucleation and crystallographic texture of polycrystalline deposits”, Mendeley Data, V1, doi: 10.17632/bsdff8shbz.1>, coupled to publication of the same name by Minar, Moelans submitted to Computational Materials Science in September 2023. 
+ % Distributed under GPLv3 license.
 %% normang = suppl_MC_findslope(MCspec,growth_sites,IND) 
 % - take into accounr 'numng' points around the one where the slope is
 % seeked (midpoint)

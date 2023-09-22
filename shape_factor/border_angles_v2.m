@@ -1,4 +1,7 @@
-% function th_m = border_angles(input,plotting)
+% COPYRIGHT NOTICE 
+ % This file is part of a dataset <Minar, Martin (2023), “Influence of surface energy anisotropy on nucleation and crystallographic texture of polycrystalline deposits”, Mendeley Data, V1, doi: 10.17632/bsdff8shbz.1>, coupled to publication of the same name by Minar, Moelans submitted to Computational Materials Science in September 2023. 
+ % Distributed under GPLv3 license.
+%% function th_m = border_angles(input,plotting)
 % th_m is not rotated, should there be some offset, it must be applied on
 % the resulting th_m
 % outspec ... 'forbb' , 'nconvex', 'earscross'

@@ -1,3 +1,6 @@
+% COPYRIGHT NOTICE 
+ % This file is part of a dataset <Minar, Martin (2023), “Influence of surface energy anisotropy on nucleation and crystallographic texture of polycrystalline deposits”, Mendeley Data, V1, doi: 10.17632/bsdff8shbz.1>, coupled to publication of the same name by Minar, Moelans submitted to Computational Materials Science in September 2023. 
+ % Distributed under GPLv3 license.
 % __ the anisotropy function is f(\theta) = 1 + soaIE*cos(n*(theta-alpha))
 % __    n ... order of symmetry
 % __    soaIE ... strength of anisotropy in interface energy
